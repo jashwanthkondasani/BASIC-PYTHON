@@ -82,8 +82,13 @@
 # for i in range(1,6):
 #   fact*=i
 # print(fact)
-for i in range(1,6):
-   if i%2==0:
-       print(i,"is even")
-   else:
-       print(i,"is odd")
+# for i in range(1,6):
+#    if i%2==0:
+#        print(i,"is even")
+#    else:
+#        print(i,"is odd")
+for i in range(1,11):
+    if i%2==0:
+        print(i,"is even")
+    else:
+        print(i,"is odd")
