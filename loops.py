@@ -87,8 +87,50 @@
 #        print(i,"is even")
 #    else:
 #        print(i,"is odd")
-for i in range(1,11):
-    if i%2==0:
-        print(i,"is even")
-    else:
-        print(i,"is odd")
+# for i in range(1,11):
+#     if i%2==0:
+#         print(i,"is even")
+#     else:
+#         print(i,"is odd")
+# even_sum=0
+# odd_sum=0
+# for i in range(1,11):
+#     if i%2==0:
+#         even_sum+=i
+#     else:
+#         odd_sum+=i
+# print("Sum of even numbers:",even_sum)
+# print("Sum of odd numbers:",odd_sum)
+# sum=0
+# for i in range(1,15):
+#   if i%7==0:
+#     sum+=i
+# print(sum)
+
+# count=0
+# sum=0
+# for i in range(1,200):
+#   if i%5==0:
+#     sum+=i
+#     print(i)
+#     count+=1
+# print("sum",sum)
+# print("count",count)
+# for i in range(1,10):
+#   if i==7:
+#     break
+#   print(i)
+# for i in range(1,15):
+#   if i==7:
+#     continue
+#   print(i)
+
+# for i in range(1, 16):
+#     if i % 15 == 0:
+#         print("FizzBuzz")
+#     elif i % 3 == 0:
+#         print("Fizz")
+#     elif i % 5 == 0:
+#         print("Buzz")
+#     else:
+#         print(i)
