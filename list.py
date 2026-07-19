@@ -80,6 +80,22 @@
 # list1=[1,2,3,4,5]
 # list1.clear()
 # print(list1)
-list1=[1,2,3,4,5 ]
-del list1[1]
-print(list1)
+# list1=[1,2,3,4,5 ]
+# del list1[1]
+# print(list1)
+# list=[12,13,14,25,26,99]
+# even_count=0
+# odd_count=0
+# for num in list:
+#   if num%2==0:
+#     even_count+=1
+#   else:
+#     odd_count+=1
+# print("even numbers",even_count)
+# print("odd_count",odd_count)
+list=[11,22,33,33,33]
+count=0
+for num in list:
+  if  num==11 :
+    count+=1
+print(count)

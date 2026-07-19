@@ -13,9 +13,9 @@
 # t.count(1)
 # print(t.count(1))
 # print(t.index(1))
-student=("jash","nani","pandu")
-name=input("enter the name:")
-if name in student:
-    print("student is present",name)
-else:
-    print("student is not present",name)
+# student=("jash","nani","pandu")
+# name=input("enter the name:")
+# if name in student:
+#     print("student is present",name)
+# else:
+#     print("student is not present",name)

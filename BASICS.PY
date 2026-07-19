@@ -64,3 +64,94 @@
 # length = 10
 # width = 5
 # print(area := length * width  )
+# x=1000
+# y=20
+# print(x>y)
+# for i in range(1,7):
+#     if i==2:
+#         break
+#     print(i)
+# name="jashwanth"
+# print(len(name))
+# if 10==10:
+#   print("yes")
+# for i in range(6):
+#   print(i)
+# numbers=[1,2,34,5,6,6]
+# print(numbers[5])
+
+# marks=[12,34,55,78,55]
+# print(marks.pop(2))
+# count=1
+# while count<=5:
+#     print("jai sri ram")
+#     count+=1
+# n=int(input("enter starting number:-"))
+# m=int(input("enter ending number:-"))
+# for i in range(n,m+1,2):
+#   print(i)
+# sum=0
+# for i in range(1,100):
+#     sum+=i
+# print(sum)
+# table=5
+# for i in range(1,11):
+#     print(f"{table} x {i} = {table*i}")
+# count=0
+# for i in range(1,200):
+#   if i%7==0:
+#     count+=1
+# print(count)
+# name="jashwanth"
+# count=0
+# for ch in name:
+#   count+=1
+# print(count)
+# count=0
+# name="jashwanth"
+# vowels="aeiou"
+# count=0
+# for ch in name:
+#   if ch in vowels:
+#     count+=1
+# print(count)
+# name="KONDASANI JAShwanth kumar reddy"
+# upper_count=0
+# lower_count=0
+# for ch in name:
+#   if upper_count in name:
+#      upper_count+=1
+#   else:
+#      lower_count+=1
+# print("uppercase letters",upper_count)
+# print("lowercase letters",lower_count)
+# name="KondaSaniJashwanthKumarReddy"
+# upper_count=0
+# lower_count=0
+# for ch in name:
+#   if ch.isupper():
+#     upper_count+=1
+#   else:
+#     lower_count+=1
+# print("upperletters",upper_count)
+# print("lower_count",lower_count)
+# nums=[10,20,30,40,50]
+# maximum=nums[0]
+# for num in nums:
+#    if num>maximum:
+#       maximum=num
+# print(maximum)
+# nums=[1,2,4,66,3,1,0]
+# minimum=nums[0]
+# for num in nums:
+#   if num<minimum:
+#     minimum=num
+# print(minimum)
+name="ammananna"
+# print(name.upper())
+# print(name.lower())
+# print(name.title())
+name="123nanna"
+# print(name.capitalize())  
+# print(name.isalpha())
+print(name.isalnum())
