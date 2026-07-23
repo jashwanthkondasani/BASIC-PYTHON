@@ -147,11 +147,11 @@
 #   if num<minimum:
 #     minimum=num
 # print(minimum)
-name="ammananna"
+# name="ammananna"
 # print(name.upper())
 # print(name.lower())
 # print(name.title())
-name="123nanna"
+# name="123nanna"
 # print(name.capitalize())  
 # print(name.isalpha())
-print(name.isalnum())
+# print(name.isalnum())

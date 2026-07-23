@@ -93,9 +93,65 @@
 #     odd_count+=1
 # print("even numbers",even_count)
 # print("odd_count",odd_count)
-list=[11,22,33,33,33]
+# list=[11,22,33,33,33]
+# count=0
+# for num in list:
+#   if  num==11 :
+#     count+=1
+# print(count)
+# count=0
+# for i in range(1,101):
+#   if i %2==0:
+#     count+=i
+# print(count)
+# count=0
+# name="ammaNAnna"
+# vowels="aeiouAEIOU"
+# for ch in name:
+#   if ch in vowels:
+#     count+=1
+# print(count)
+# upper_count=0
+# lower_count=0
+# name="jashwanthKUMARreddy"
+# for ch in name:
+#   if ch.isupper():
+#     upper_count+=1
+#   else:
+#     lower_count+=1
+# print("uppercount letter",upper_count)
+# print("lower_count",lower_count)
+
+# nums=[11,22,33,44,55,66,67,88,99]
+# target=559
+# found=False
+# for num in nums:
+#   if num==target:
+#     found=True
+# if found:
+#   print("element is found")
+# else:
+#   print("element is not found")
+# numbers=[11,22,33,44,55,66]
+# target=22
+# for i in range(len(numbers)):
+#   if numbers[i]==target:
+#      print("target is found at index",i)
+# 'numbers=[11,22,33,44,55,56,33,33,33,33]
+# target=33
+# count=0
+# for i in range(len(numbers)):
+#   if numbers[i]==target:
+#     count+=1
+# print("count",count)
+numbers=[11,22,33,44,44,44,44,55]
+target=44
 count=0
-for num in list:
-  if  num==11 :
-    count+=1
-print(count)
+for num in numbers:
+  if num==target:
+     count+=1
+if count>1:
+   print("it was a duplicate one",count)
+else:
+   print("no duplicate found")
+
