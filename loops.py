@@ -134,3 +134,60 @@
 #         print("Buzz")
 #     else:
 #         print(i)
+# n=123243243
+# count=0
+# while n>0:
+#   digit=n%10
+#   count+=1
+#   n//=10
+# print(count)
+# num=123
+# rev=0
+# while num>0:
+#   digit=num%10
+#   rev=rev*10+digit
+#   num//=10
+# print(rev)
+# n=100323289787
+# largest=0
+# while n>0:
+#   digit=n%10
+#   if digit>largest:
+#       largest=digit
+#   n//=10
+# print(largest)
+# n=23242
+# smallest=0
+# while n>0:
+#   digit=n%10
+#   if digit<smallest:
+#     smallest=digit
+#   n//=10
+# print(smallest)
+# n=7
+# count=0
+# for i in range(1,n+1):
+#   if n%i==0:
+#     count+=1
+# if count==2:
+#   print("prime")
+# else:
+#   print("not a prime")
+# for num in range(1,1000):
+#   count=0
+#   for i in range(1,num+1):
+#     if num%i==0:
+#       count+=1
+#   if count==2:
+#     print(num,end=" ")
+n=1533
+original=n
+total=0
+while n>0:
+  digit=n%10
+  total+=digit**3
+  n//=10
+if original==total:
+  print("armstrong number")
+else:
+  print("not an armstrong number ")
