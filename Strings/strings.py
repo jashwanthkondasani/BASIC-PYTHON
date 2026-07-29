@@ -76,3 +76,8 @@
 #   print("it was an palinrome")
 # else:
 #   print("not an plainrome ")
+def greet():
+  print("namste")
+print("hello")
+greet()
+print("gud byeee")
