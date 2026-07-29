@@ -20,6 +20,6 @@
 # def greet(name):
 #   print("Hello "+name +"!")
 # greet("jashwanthkonasani")
-def square(num):
-  print(num*num)
-square(34)
+# def square(num):
+#   print(num*num)
+# square(34)
