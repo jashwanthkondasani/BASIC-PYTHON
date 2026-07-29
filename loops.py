@@ -180,14 +180,14 @@
 #       count+=1
 #   if count==2:
 #     print(num,end=" ")
-n=1533
-original=n
-total=0
-while n>0:
-  digit=n%10
-  total+=digit**3
-  n//=10
-if original==total:
-  print("armstrong number")
-else:
-  print("not an armstrong number ")
+# n=153
+# original=n
+# total=0
+# while n>0:
+#   digit=n%10
+#   total+=digit**3
+#   n//=10
+# if original==total:
+#   print("armstrong number")
+# else:
+#   print("not an armstrong number ")
