@@ -51,3 +51,28 @@
 # print(name.capitalize())  
 # print(name.isalpha())
 # print(name.isalnum())
+# name="jashKONDASASNI"
+# upper_count=0
+# lower_count=0
+# for ch in name:
+#   if ch.isupper():
+#     upper_count+=1
+#   else:
+#     lower_count+=1
+# print("uppercount",upper_count)
+# print("lowercount",lower_count)
+# name="jashwanth kumar reddy"
+# count=0
+# vowels="aeiouAEIOU"
+# for ch in name:
+#   if ch !=vowels:
+#     count+=1
+# print(count)
+# text="cook"
+# reverse=""
+# for ch in text:
+#   reverse=ch+reverse
+# if text==reverse:
+#   print("it was an palinrome")
+# else:
+#   print("not an plainrome ")

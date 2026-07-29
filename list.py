@@ -144,14 +144,22 @@
 #   if numbers[i]==target:
 #     count+=1
 # print("count",count)
-numbers=[11,22,33,44,44,44,44,55]
-target=44
-count=0
-for num in numbers:
-  if num==target:
-     count+=1
-if count>1:
-   print("it was a duplicate one",count)
-else:
-   print("no duplicate found")
+# numbers=[11,22,33,44,44,44,44,55]
+# target=44
+# count=0
+# for num in numbers:
+#   if num==target:
+#      count+=1
+# if count>1:
+#    print("it was a duplicate one",count)
+# else:
+#    print("no duplicate found")
+# n=13355
+# sum=0
+# while n>0:
+#   digit=n%10
+#   sum+=digit
+#   n//=10
+# print
+
 
