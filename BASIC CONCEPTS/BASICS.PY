@@ -155,3 +155,51 @@
 # print(name.capitalize())  
 # print(name.isalpha())
 # print(name.isalnum())
+# n=19
+# count=0
+# for i in range(1,n+1):
+#   if n%i==0:
+#     count+=1
+# if count==2:
+#   print("prime number")
+# else:
+#   print("not an prime number")
+# fact=1
+# def fact(n):
+#   fact=1
+#   for i in range(1,n+1):
+#     fact=fact*i
+#   return fact
+# print(fact(5))
+# def fact(n):
+#   fact=1
+#   for i in range(1,n+1):
+#     fact=fact*i
+#   print(fact)
+# fact(5)
+# n=123
+# rev=0
+# while n>0:
+#   digit=n%10
+#   rev=rev*10+digit
+#   n//=10
+# print(rev)
+# n=13232367890
+# largest=0
+# while n>0:
+#   digit=n%10
+#   if digit>largest:
+#     largest=digit
+#   n//=10
+# print(largest)
+a=12
+b=18
+
+gcd=1
+
+for i in range(1,min(a,b)+1):
+  if a%i==0 and b%i==0:
+    gcd=i
+print(gcd)
+
+
