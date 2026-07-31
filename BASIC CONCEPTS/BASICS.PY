@@ -192,14 +192,52 @@
 #     largest=digit
 #   n//=10
 # print(largest)
-a=12
-b=18
+# a=12
+# b=18
 
-gcd=1
+# gcd=1
 
-for i in range(1,min(a,b)+1):
-  if a%i==0 and b%i==0:
-    gcd=i
-print(gcd)
+# for i in range(1,min(a,b)+1):
+#   if a%i==0 and b%i==0:
+#     gcd=i
+# print(gcd)
+# def prime(n):
+#   count=0
+#   for i in range(1,n+1):
+#     if n%i==0:
+#       count+=1
+#   if count==2:
+#       print("prime number")
+#   else:
+#       print("not prime")
+# prime(52)
+# def sum(n):
+#   sum=0
+#   while n>0:
+#     digit=n%10
+#     sum+=digit
+#     n//=10
+#   print(sum)
+# sum(552456543)
+# def palindrome(n):
+#   rev=0
+#   orig=n
+#   while n>0:
+#     digit=n%10
+#     rev=rev*10+digit
+#     n//=10
+#   if orig==rev:
+#     print("palindrome")
+#   else:
+#     print("not an palindrome")
+# palindrome(121)
 
-
+def largest(n):
+  largest=0
+  while n>0:
+    digit=n%10
+    if digit>largest:
+      largest=digit
+    n//=10
+  print(largest)
+largest(123459876)
