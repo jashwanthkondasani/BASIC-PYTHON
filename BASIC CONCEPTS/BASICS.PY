@@ -232,12 +232,38 @@
 #     print("not an palindrome")
 # palindrome(121)
 
-def largest(n):
-  largest=0
-  while n>0:
-    digit=n%10
-    if digit>largest:
-      largest=digit
-    n//=10
-  print(largest)
-largest(123459876)
+# def largest(n):
+#   largest=0
+#   while n>0:
+#     digit=n%10
+#     if digit>largest:
+#       largest=digit
+#     n//=10
+#   print(largest)
+# largest(123459876)
+# def largest():/
+# nums=[1,3,4,5,6]
+# max=num[0]
+# for nums in range(len(nums)):
+#   if nums[i]>nums[0]
+#   nums[i]=max
+# print(max)
+# nums=[9,2,4,33,4552,0,78987654]
+# largest=nums[0]
+# for i in range(len(nums)):
+#   if nums[i]>largest:
+#    largest=nums[i]
+# print(largest)
+# def largest(nums):
+#   largest=nums[0]
+#   for i in range(len(nums)):
+#     if nums[i]>largest:
+#       largest=nums[i]
+#   print(largest)
+# largest([1,2,3,5,5,99992])
+
+nums=[1,23,45,67,89,100]
+total=0
+for i in nums:
+   total+=i
+print(total)
