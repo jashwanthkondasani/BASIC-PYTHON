@@ -70,10 +70,43 @@
 # print(lowest)
 # print(second)
 # nums=[11,22,44,55]
-def sort(nums):
-  for i in range(len(nums)-1):
-      if nums[i]>nums[i+1]:
-          return False
-  return True
-print(sort([11,1,2,4]))
+# def sort(nums):
+#   for i in range(len(nums)-1):
+#       if nums[i]>nums[i+1]:
+#           return False
+#   return True
+# print(sort([11,1,2,4]))
+# nums=[11,22,44,55,-1,-33,-44]
+# count=0
+# for num in nums:
+#   if num>0:
+#     count+=1
+# print("count",count)
+        # print(num)
+# nums=[11,22,-22,-34]
+# for num in nums:
+#   if num>=0:
+#     print(num)
 
+# def is_sorted(nums):
+#   for i in range(len(nums)-1):
+#     if nums[i]>nums[i+1]:
+#       return False
+#   return True
+# nums=[11,22,33,44,55]
+# print(is_sorted(nums))
+# nums=[11,22,33,55,22,22]
+# count=0
+# target=22
+# for num in nums:
+#   if num==target  :
+#     count+=1
+# print("target:-",target,"count:-",count)
+nums=[11,22,33,44,44,44,44]
+freq={}
+for num in nums:
+  if num in freq:
+    freq[num]+=1
+  else:
+    freq[num]=1
+print(freq)
