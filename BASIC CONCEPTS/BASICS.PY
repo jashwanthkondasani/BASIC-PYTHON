@@ -262,8 +262,184 @@
 #   print(largest)
 # largest([1,2,3,5,5,99992])
 
-nums=[1,23,45,67,89,100]
-total=0
-for i in nums:
-   total+=i
-print(total)
+# nums=[1,23,45,67,89,100]
+# total=0
+# for i in nums:
+#    total+=i
+# print(total)
+# print("jai sri ram")
+# print("hello jash")
+# name=int(input("enter your name:-"))
+# name=input("enter your name man")
+# n=12
+# m=123
+# print("n:-",n,"m",m)
+# DATA TYPES
+# a=11
+# b="jash"
+# c=1.23
+# d=3+7j
+# print(a,b,c,d)
+# print(type(b))
+a=3
+b=4
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a//b)
+# print(a%b)
+
+# conditional statements
+# a=10
+# b=15
+# if a>b:
+#   print("a is big")
+# else:
+#   print("b is big")
+# marks=60
+# if marks>=90:
+#   print("A  grade")
+# elif  80<=marks<=90:
+#   print("B grade")
+# elif  70<=marks<=80:
+#   print("C grade")
+# elif  60<=marks<=70:
+#   print("D grade")
+# name="i love u"
+# i=5
+# while i>0:
+#   print(name)
+#   i-=1
+# name="jashwanth"
+# n=12
+# while n>0:
+#   print(name)
+#   n-=1  
+# n=14
+# while n>0:
+#   print(name)
+#   n-=1
+# n=5
+# while n>0:
+#   print("jashwanth")
+#   n-=1
+# n=5
+# while n>0:
+#   print(n)
+#   n-=1
+# n=0
+# while n<5:
+#   print(n)
+#   n+=1
+# n=1
+# while n<=10:
+#   print("jai sri ram")
+#   n+=1
+# for i in range(1,10):
+#   print(i)
+# nums=[1,2,3,4,5]
+# for num in nums:
+#   print(num)
+# nums=[11,22,33,44,55]
+# for i in nums:
+#     print([i])
+# a=9543
+# b=11678
+# c=3356
+# if a>=b and b>=c:
+#   print(" a is big")
+# elif b>=c and b>=a:
+#   print(" b is large")
+# else:
+#   print(" c is large")
+# year=2012
+# if (year%100!=0 and year%4==0) or (year%400==0):
+#   print("leap year")
+# else:
+#   print("not an leap year")
+# year=7799
+# if(year%4==0 and year%100!=0) or (year%400==0):
+#   print("it is leap year")
+# else:
+#   print("not an leap year")
+# a=10
+# b=11
+# c=12
+# if (a+b>c) and (b+c>a) and (c+a>b):
+#   print("valid triangle")
+# else:
+#   print("not  a valid triangle")\
+# a=1
+# b=11
+# c=31
+# if a==b and b==c and c==a:
+#   print("equilateral triangle")
+# # elif a==b and b==c and c==a or a!=b or b!=c or c!=a
+# elif a==b or b==c or c==a:
+#   print("isocelos triangle")
+# else:
+#   print("scalane triangle")
+# balance=int(input("enter the balance of amnmount:-"))
+# amount=int(input("enter the with drawl amount"))
+# remainingbalance=balance-amount
+# if amount>0 and amount<=balance  :
+#   print("transaction succesfull")
+#   print("remainingbalance",remainingbalance)
+# n=5
+# for i in range(1,n+1):
+#   print(i)
+# n=5
+# for i in range(n,0,-1):
+#   print(i)
+# for i in range(2,21,2):
+#   print(i)
+# for i in range(1,21,2):
+#   print(i)
+# table=5
+# for i in range(1,11):
+#   print(table,"*",i,"=",table*i)
+# sum=0
+# for i in range(1,6):
+#   sum+=i
+# print(sum)
+# n=5
+# fact=1
+# for i in range(1,n+1):
+#   fact=fact*i
+# print(fact)
+# n=123239988
+# count=0
+# while n>0:
+#   n//=10
+#   count+=1
+# print(count)
+# for i in range(1,1000):
+#   count=0
+#   for j in range(1, i+1):
+#     if i%j==0:
+#       count+=1
+#   if count==2:
+#     print(i)
+# n=141
+# original=n
+# sum=0
+# while n>0:
+#   digit=n%10
+#   sum=sum*10+digit
+#   n//=10
+# if original==sum:
+#   print("palindrome")
+# else:
+#   print("not an palindrome")
+#  armstrong umber
+# n=154
+# original=n
+# sum=0
+# while n>0:
+#   digit=n%10
+#   sum=sum+digit**3
+#   n//=10
+# if original==sum:
+#   print("armstrong number")
+# else:
+#   print("not an armstrong number")

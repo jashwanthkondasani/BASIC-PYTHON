@@ -102,11 +102,11 @@
 #   if num==target  :
 #     count+=1
 # print("target:-",target,"count:-",count)
-nums=[11,22,33,44,44,44,44]
-freq={}
-for num in nums:
-  if num in freq:
-    freq[num]+=1
-  else:
-    freq[num]=1
-print(freq)
+# nums=[11,22,33,44,44,44,44]
+# freq={}
+# for num in nums:
+#   if num in freq:
+#     freq[num]+=1
+#   else:
+#     freq[num]=1
+# print(freq)
