@@ -110,3 +110,15 @@
 #   else:
 #     freq[num]=1
 # print(freq)
+nums = [10, 50, 20, 80, 30]
+
+max_value = nums[0]
+max_index = 0
+
+for i in range(len(nums)):
+    if nums[i] > max_value:
+        max_value = nums[i]
+        max_index = i
+
+print(max_value)
+print(max_index)
