@@ -67,14 +67,14 @@
 #         print(f"Car Year: {self.year}")
 # car1=car("Toyota","Camry",2020)
 # car1.display_info()
-# class bike:
-#     def __init__(self,make,model,year):
-#         self.make=make
-#         self.model=model
-#         self.year=year
-#     def display(self):
-#         print(f"bike make:{self.make}")
-#         print(f"bike mode:{self.model}")
-#         print(f"bike year:{self.year}")
-# bike1=bike("pulsur",220,2018)
-# bike1.display()
+class bike:
+    def __init__(self,make,model,year):
+        self.make=make
+        self.model=model
+        self.year=year
+    def display(self):
+        print(f"bike make:{self.make}")
+        print(f"bike mode:{self.model}")
+        print(f"bike year:{self.year}")
+bike1=bike("pulsur",220,2018)
+bike1.display()

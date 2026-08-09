@@ -32,3 +32,13 @@ for i in range(len(nums)):
     max_i=i
 print(max)
 print(max_i)
+nums=[122,44,55]
+largest=0
+second=0
+for i in  range(len(nums)):
+  if nums[i]>largest:
+    second=largest
+    largest=nums[i]
+  if nums[i]>second or second!=largest:
+
+    print(second)
