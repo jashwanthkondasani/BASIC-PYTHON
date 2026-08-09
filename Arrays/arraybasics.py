@@ -13,13 +13,22 @@
 #   if arr[i]>largest:
 #     largest=arr[i]
 # print(largest)
-nums=[122,44,55]
-largest=0
-second=0
-for i in  range(len(nums)):
-  if nums[i]>largest:
-    second=largest
-    largest=nums[i]
-  if nums[i]>second or second!=largest:
+# nums=[122,44,55]
+# largest=0
+# second=0
+# for i in  range(len(nums)):
+#   if nums[i]>largest:
+#     second=largest
+#     largest=nums[i]
+#   if nums[i]>second or second!=largest:
 
-    print(second)
+#     print(second)
+nums=[1,2,45,6]
+max=nums[0]
+max_i=0
+for i in range(len(nums)):
+  if nums[i]>max:
+    max=nums[i]
+    max_i=i
+print(max)
+print(max_i)
