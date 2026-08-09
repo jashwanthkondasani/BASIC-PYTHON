@@ -110,15 +110,40 @@
 #   else:
 #     freq[num]=1
 # print(freq)
-nums = [10, 50, 20, 80, 30]
+# nums = [10, 50, 20, 80, 30]
 
-max_value = nums[0]
-max_index = 0
+# max_value = nums[0]
+# max_index = 0
 
-for i in range(len(nums)):
-    if nums[i] > max_value:
-        max_value = nums[i]
-        max_index = i
+# for i in range(len(nums)):
+#     if nums[i] > max_value:
+#         max_value = nums[i]
+#         max_index = i
 
-print(max_value)
-print(max_index)
+# print(max_value)
+# print(max_index)
+# arr=[21,22,33,44,55]
+# target=22
+# found=False
+# for num in arr:
+#   if num==target:
+#     found=True
+#     break
+# print(found)
+# nums=[11,22,33,44,44,44]
+# target=44
+# count=0
+# for num in nums:
+#   if num==target:
+#     count+=1
+# print(count)
+# nums=[11,22,33,44,55]
+# even=0
+# odd=0
+# for num in nums:
+#   if num%2==0:
+#     even+=1
+#   else:
+#     odd+=1
+# print("even count:-",even)
+# print("odd_count:-",odd)
