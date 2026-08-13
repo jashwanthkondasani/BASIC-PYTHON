@@ -81,3 +81,19 @@
 # print("hello")
 # greet()
 # print("gud byeee")
+# def reverse_string(text):
+#     reverse = ""
+#     for ch in text:
+#         reverse = ch + reverse
+#     return reverse
+# text=input()
+# print(reverse_string(text))
+# def reverse(s):
+#   left=0
+#   right=len(s)-1
+#   while left<right:
+#     s[left],s[right]=s[right],s[left]
+#     left+=1
+#     right-=1
+# s=input()
+# print(reverse(s))
