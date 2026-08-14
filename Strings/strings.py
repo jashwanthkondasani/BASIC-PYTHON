@@ -97,3 +97,17 @@
 #     right-=1
 # s=input()
 # print(reverse(s))
+# name="jashwanth kumar redddy"
+# freq={}
+# for ch in name:
+#   if ch in freq:
+#     freq[ch]+=1
+#   else:
+#     freq[ch]=1
+#   print(ch,":",freq[ch],end=" ")
+name="jashwanthreddy"
+frequency={}
+for ch in name:
+  frequency[name]=frequency.get(ch,0)+1
+for ch in name:
+  print(ch,":",frequency[name])
