@@ -105,9 +105,26 @@
 #   else:
 #     freq[ch]=1
 #   print(ch,":",freq[ch],end=" ")
-name="jashwanthreddy"
-frequency={}
-for ch in name:
-  frequency[name]=frequency.get(ch,0)+1
-for ch in name:
-  print(ch,":",frequency[name])
+# name="jashwanthreddy"
+# frequency={}
+# for ch in name:
+#   frequency[name]=frequency.get(ch,0)+1
+# for ch in name:
+#   print(ch,":",frequency[name])
+text = "banana"
+
+freq = {}
+
+for ch in text:
+    freq[ch] = freq.get(ch, 0) + 1
+
+most_frequent = ""
+highest = 0
+
+for ch, count in freq.items():
+    if count > highest:
+        highest = count
+        most_frequent = ch
+
+print("Most frequent:", most_frequent)
+print("Frequency:", highest)
