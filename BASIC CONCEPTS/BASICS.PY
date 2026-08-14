@@ -449,3 +449,111 @@ arr1=list(arr)
 arr1=list(set(arr1))
 arr1.sort()
 print(arr1[-2])
+name=input(("enter the name:-"))
+# age=int(input("enter the age:-"))
+# addage=5
+# print(name)
+# print("age after 5 years",age+addage)
+# a=int(input("enter number a:-"))
+# b=int(input("enter number b:-"))
+# c=int(input("enter number c:-"))
+# if a>=b and a>=c:
+#   print("a is big")
+# elif b>=c and b>=a:
+#   print("b is big")
+# else:
+#   print("c is big")
+# n=int(input("enter the number:-"))
+# if n>0:
+#   print("positive")
+# elif n<0:
+#   print("negative")
+# else:
+#   print("zeroo")
+# Age < 13       → Child
+# 13–19          → Teenager
+# 20–59          → Adult
+# 60 or above    → Senior
+# age=int(input("enter age:-"))
+# if age<13:
+#   print("child")
+# elif 13<=age <=19:
+#   print("teenager")
+# elif 20<=age<=59:
+#   print("adult")
+# elif age>=60:
+#   print("senior")
+# n=int(input("enter the number:-"))
+# sum=0
+# for i in range(1,n+1):
+#   if i%2==0:
+#     sum+=i
+# print(sum)
+# n=int(input("enter a number:-"))
+# count=0
+# for i in range(1,n+1):
+#   if i%3==0:
+#     count+=1
+# print(count)
+# n=int(input("enter the number:-"))
+# count=0
+# while n>0:
+#   digit=n%10
+#   count+=1
+#   n//=10
+# print(count)
+# n=int(input("enter the number:-"))
+# original=n
+# rev=0
+# while n>0:
+#   digit=n%10
+#   rev=rev*10+digit
+#   n//=10
+# if rev==original:
+#   print("palindrome")
+# else:
+#   print("not an palindrome")
+# n=int(input("enter the number:-"))
+# sum=0
+# while n>0:
+#   digit=n%10
+#   sum+=digit
+#   n//=10
+# print(sum)
+# n=int(input("enter the number:-"))
+# largest=0
+# digit=n%10
+# if largest > digit:
+#   digit=largest
+#   n//=10
+# print("largest digit",digit)
+# n=int(input("enter an number:-"))
+# count=0
+# for i in range(1,n+1):
+#   if n%i==0:
+#     count+=1
+# if count==2:
+#   print("prime")
+# else:
+#   print("not an prime")
+# n=int(input("enter an number:-"))
+# for i in range(1,n+1):
+#   for j in range(1,11):
+#     print(i,"X",j,"=",i*j)
+# name="jaswanthreddykonadasanifrom yerraguntlabavi"
+# vowels="aeiouAEIOU"
+# count=0
+# for i in name:
+#   if i in vowels:
+#     count+=1
+# print(count)
+# name="pop"
+# orig=name
+# rev=""
+# for i in name:
+#   rev=i+rev
+# if orig==rev:
+#   print("palindrome")
+# else:
+#   print("not a palindrome")
+
