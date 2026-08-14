@@ -547,12 +547,4 @@ b=4
 #   if i in vowels:
 #     count+=1
 # print(count)
-name="pop"
-orig=name
-rev=""
-for i in name:
-  rev=i+rev
-if orig==rev:
-  print("palindrome")
-else:
-  print("not a palindrome")
+
