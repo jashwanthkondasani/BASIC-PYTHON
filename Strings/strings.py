@@ -81,3 +81,50 @@
 # print("hello")
 # greet()
 # print("gud byeee")
+# def reverse_string(text):
+#     reverse = ""
+#     for ch in text:
+#         reverse = ch + reverse
+#     return reverse
+# text=input()
+# print(reverse_string(text))
+# def reverse(s):
+#   left=0
+#   right=len(s)-1
+#   while left<right:
+#     s[left],s[right]=s[right],s[left]
+#     left+=1
+#     right-=1
+# s=input()
+# print(reverse(s))
+# name="jashwanth kumar redddy"
+# freq={}
+# for ch in name:
+#   if ch in freq:
+#     freq[ch]+=1
+#   else:
+#     freq[ch]=1
+#   print(ch,":",freq[ch],end=" ")
+# name="jashwanthreddy"
+# frequency={}
+# for ch in name:
+#   frequency[name]=frequency.get(ch,0)+1
+# for ch in name:
+#   print(ch,":",frequency[name])
+text = "banana"
+
+freq = {}
+
+for ch in text:
+    freq[ch] = freq.get(ch, 0) + 1
+
+most_frequent = ""
+highest = 0
+
+for ch, count in freq.items():
+    if count > highest:
+        highest = count
+        most_frequent = ch
+
+print("Most frequent:", most_frequent)
+print("Frequency:", highest)
