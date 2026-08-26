@@ -147,7 +147,10 @@
 #     odd+=1
 # print("even count:-",even)
 # print("odd_count:-",odd)
-nums=[11,22,33,44,55,66,77,88]
+# nums=[11,22,33,44,55,66,77,88]
+# for i in nums:
+#   if i%2==0:
+#         print(i)
+nums=[11,22,33,44,55,66]
 for i in nums:
-  if i%2==0:
-        print(i)
+  print(i)
