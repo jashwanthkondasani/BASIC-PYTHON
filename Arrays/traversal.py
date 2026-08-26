@@ -151,6 +151,14 @@
 # for i in nums:
 #   if i%2==0:
 #         print(i)
-nums=[11,22,33,44,55,66]
-for i in nums:
-  print(i)
+# nums=[11,22,33,44,55,66]
+# for i in nums:
+#   print(i)
+nums=[11,22,33,44,55]
+nums.append(66)
+nums.pop(2)
+print(nums)
+nums=[11,22,33,44,55]
+nums.append(66)
+nums.pop(2)
+print(nums)
